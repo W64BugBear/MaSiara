@@ -1,0 +1,14 @@
+x sollte nur Panel beenden (openStartPanel)
+es sollte separaten Button für SPeichern und zurück geben 
+
+PropertyPanel
+
+FightPanel
+
+ * Scrollbar soll in 10er-Spruengen adjustiert werden
+ * Pfade *try showPopup catch - haha
+
+
+I speicher bei Stilen momentan nur, wie hoch sie sind (im Helden), welcher Vorteil bei COmboBoxen ausgewählt wurden, hab ich nur im panel gespeichert
+
+eine Liste mit allen Abkürzungen und Berechnungen

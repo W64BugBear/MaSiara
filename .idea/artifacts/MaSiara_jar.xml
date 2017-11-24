@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MaSiara:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MaSiara_jar</output-path>
+    <root id="archive" name="MaSiara.jar">
+      <element id="module-output" name="MaSiara" />
+    </root>
+  </artifact>
+</component>

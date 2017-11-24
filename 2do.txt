@@ -1,0 +1,52 @@
+Vampire Angst vor Feuer 7
+
+Srachen und Schriften de verwandten nu schauen, dass immer die höchsten als Letzte verbilligt werden (vll a bei andere Fertigkeiten)
+
+Akrobatik rrrraus
+
+RaceModDialog yeigt nur 12 an
+Zauberkraft wird net aus Zauberkraftbasis berechnet
+
+Falkoniter weg und wieder her tun 2x Raumangst weg
+Kampfstile auf 20 stiegern!!
+
+verschiedene KBW-Berechnung im Fernkampf
+
+Erzmagie: wenn i es wieder weg tu, evtl fehlermeldungen und 70 EP restaurieren
+bei Zusatz-FFW auf -2 wieder wegtun
+
+Waffenspezialisierung
+zusätzliche Vorteile kaufen nur wenn Waffenspezialisierung oder KFW 2 (actualizevalue)
+
+angry nach Verwarnung 1x Zeit lassen
+
+i hab im itemStateChanged beim WIedereinführen der alten Comboboxen "ind" statt "index" gestzt, also den alten Wert wieder vergeben, statt den Overall-Index (noch dazu ohne ihn zu erhöhen), immer wieder und wieder zu verteilen. Nur kurz checken. BIn ma sicher dass des jetzt passen muss. KA ob und wenn ja warum es vorher a passt hat.
+
+SkillsPanel.index privatisieren ^^ für Toms Seelenheil
+
+eigene Kampfstile machen
+
+Schusswaffenfertigkeiten verwandt
+
+Laden ein wenig testen
+
+Katzenauge, Beidhändig, Defensiver Kampf
+
+Ifrit (Efreet hat noch den Vampire code)
+
+max 25 pkt Einschraenkungen
+
+Kohle/Equipment
+
+Elfen
+Goblins
+Gargoyles
+Echsenmenschen
+
+vamp/ww
+
+// Wenn i an Helden lad bzw lösch muss i erst das andere Fenster zumachen
+
+//	und Notes gengan a net yum laden
+
+
