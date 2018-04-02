@@ -218,7 +218,6 @@ public class Hero
 		this.phoenixFeatherBool = phoenixFeatherBool;
 	}
 	public LinkedList<Skill> getBasicSkillsLl() {
-		System.out.println(basicSkillsLl.size());
 		return basicSkillsLl;
 	}
 

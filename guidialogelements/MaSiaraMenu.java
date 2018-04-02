@@ -207,14 +207,14 @@ public class MaSiaraMenu
 				else //load from file
 				{
 					File file = new File(Constants.RUNTIMESTRING + "//"  + sd.getSelectedHero() + ".masiara");
-					BufferedReader reader = new BufferedReader(new FileReader(file));
+					BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(file), "UTF8"));
 					int version = Integer.parseInt(reader.readLine());
 					father.setSInf(Parser.deparseSInf(reader.readLine(), version));
 					father.getSInf().setEpInt(sd.getEp());
 					
 					
 					file = new File(Constants.HEROSTRING + "//"  + sd.getSelectedHero() + ".hero");
-					reader = new BufferedReader(new FileReader(file));
+					reader = new BufferedReader(new InputStreamReader(new FileInputStream(file), "UTF8"));
 					version = Integer.parseInt(reader.readLine());
 					father.setHero(Parser.deparseHero(reader.readLine(), version, father.getSInf()));
 					reader.close();

@@ -5,11 +5,7 @@ import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.StringTokenizer;
 
 import javax.swing.JFrame;
@@ -145,8 +141,8 @@ public class MainWindow
 			else
 			{
 				File file = new File(Constants.HEROSTRING + "//" + sd.getSelectedHero() + ".hero");
-				
-				BufferedReader reader = new BufferedReader(new FileReader(file));
+
+				BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(file), "UTF8"));
 				int version = Integer.parseInt(reader.readLine());
 				this.setHero(Parser.deparseHero(reader.readLine(), version, sInf));
 				
@@ -155,7 +151,7 @@ public class MainWindow
 				int returnedEP = sInf.getEpInt();		// EP returned through rules erratae
 				
 				file = new File(Constants.RUNTIMESTRING + "//"  + sd.getSelectedHero() + ".masiara");
-				reader = new BufferedReader(new FileReader(file));
+				reader = new BufferedReader(new InputStreamReader(new FileInputStream(file), "UTF8"));
 				version = Integer.parseInt(reader.readLine());
 				this.setSInf(Parser.deparseSInf(reader.readLine(), version));
 				this.getSInf().setEpInt(sd.getEp() + returnedEP);

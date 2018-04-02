@@ -11,12 +11,7 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.ObjectInputStream;
+import java.io.*;
 
 import javax.swing.DefaultListModel;
 import javax.swing.JButton;
@@ -168,7 +163,7 @@ public class StartDialog
 
 			File file = new File(Constants.RUNTIMESTRING + "//" + list.getSelectedValue() + ".masiara");
 			
-			BufferedReader reader = new BufferedReader(new FileReader(file));
+			BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(file), "UTF8"));
 			int version = Integer.parseInt(reader.readLine());
 			SerializableInformation si = Parser.deparseSInf(reader.readLine(), version);
 			reader.close();
