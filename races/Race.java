@@ -182,6 +182,8 @@ public abstract class Race
 			return			new Gnolls();
 		if (race.equals(    "Parder"			))
 			return			new Parders();
+		if (race.equals(    "Andalib"			))
+			return			new Andalib();
 		if (race.equals(    "Skirks"			))
 			return			new Skirks();
 
